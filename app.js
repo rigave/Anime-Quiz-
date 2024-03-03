@@ -71,7 +71,7 @@ const disabledButtons = (btn) => {
 }
 
 const enabledButtons = () => {
-    if(count === 3 ) {
+    if(count === 10 ) {
         resetBtn.style.display = 'block'
         nextBtn.style.display = 'none';
     }
