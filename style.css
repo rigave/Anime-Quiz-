@@ -90,10 +90,17 @@ body {
     display: none;
 }
 
-@media (412px >= width) {
+@media (max-width: 600px) {
     .container {
-        width: 90%;
-        margin: 100px 20px;
+        width: 80%;
+        margin: 50px 50px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+    .container {
+        width: 60%;
+        margin: 50px 200px;
     }
 }
 
